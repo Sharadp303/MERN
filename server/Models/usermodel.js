@@ -21,6 +21,7 @@ const userSchema=new mongoose.Schema({
     },
     createdAt:{
         type:Date,
+        immutable:true,
         default:new Date()
     },
     updatedAt:{
